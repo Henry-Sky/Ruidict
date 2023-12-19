@@ -48,7 +48,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
    <widget class="QPushButton" name="trans_btn">
     <property name="geometry">
      <rect>
-      <x>120</x>
+      <x>190</x>
       <y>200</y>
       <width>211</width>
       <height>61</height>
@@ -104,6 +104,22 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="dict_box">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>200</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
     </property>
    </widget>
   </widget>
